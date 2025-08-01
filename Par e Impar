@@ -1,0 +1,13 @@
+Algoritmo parEimpar
+    num = 0;
+    Repetir
+      num = num+1;
+      Leer nume;
+      si (nume mod 2) = 0 Entonces
+        Escribir "Es par"
+      SiNo
+        Escribir "Es impar"
+      FinSi
+    Hasta Que nume == 10
+    Escribir "Creado por el INGENIERO ALFONSO RAMIREZ FERNANDEZ"
+FinAlgoritmo
