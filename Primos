@@ -1,0 +1,17 @@
+Algoritmo Primos
+  Escribir "Ingresar Numero"
+  Leer NumeroIngresado;
+  iteracion = 1;
+  Mientras iteracion <= NumeroIngresado Hacer
+    si(NumeroIngresado % iteracion == 0) Entonces
+      DivisionResiduoCero = DivisionResiduoCero + 1;
+    FinSi
+    iteracion = iteracion + 1
+  FinMientras
+  si(DivisionResiduoCero == 2) Entonces
+    Escribir "El numero Ingresado es Primo"
+  SiNo
+    Escribir "El numero ingresado no es Primo"
+  FinSi
+  Escribir "Creado por el INGENIERO ALFONSO RAMIREZ FERNANDEZ"
+FinAlgoritmo
