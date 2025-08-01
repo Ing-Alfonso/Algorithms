@@ -1,0 +1,12 @@
+Algoritmo Alreves
+  inverso <- 0
+  Escribir "Ingresa un numero"
+  Leer numero
+  residuo <- numero
+  Mientras residuo > 0 Hacer
+    inverso <- inverso * 10 + residuo mod 10;
+    residuo <- (residuo - residuo mod 10) /10
+FinMientras
+  Escribir "Valor del numero al reves ", inverso;
+  Escribir "Creado por el INGENIERO ALFONSO RAMIREZ FERNANDEZ"
+FinAlgoritmo
